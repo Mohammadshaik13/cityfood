@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.nb{ border:none; }
+.text{ box-sizing:border-box; height:80px; width=100%; resize:none;}
+</style>
+</head>
+<body>
+<form action="contact.php">
+<label>Item Name:</label>
+<input type="text" class="nb" name="iname" value="Pani puri" readonly><br>
+
+<label>Name</label><br><input type="text" name="name" placeholder="Enter your name" required><br> 
+
+<label>Phone: </label><br>
+<input type="number" name="phone" placeholder="Enter your number" required><br>
+
+<label>Address</label><br>
+<input type="text" name="address" placeholder="Enter Your Address" required><br>
+
+<br><label>Bill: </label><select name="select">
+<option>Rs.110/-(20pcs)</option>
+</select>
+<br>
+<input type="radio" name="cod">Cash on delivery
+
+<br><input type="submit" value="order now">
+</form>
+</body>
+</html>

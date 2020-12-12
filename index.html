@@ -1,0 +1,145 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: darkblue;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 33.33%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: solid black;
+  display: none;
+  padding: 25px 10px;
+  height: 100%;
+  
+}
+
+.border{ border:1px solid black; }
+table,td{margin-right:5px;}
+table{ border:1px solid black; }
+td{border:0.5px solid black; padding:4.5px;}
+a{ text-decoration:none;
+color: black; }
+header{ background-color:black; color:white; text-align:center; height:40px; font-size:15px; }
+h2{padding-top:5px; }
+</style>
+</head>
+<header><h2>City Food Nellore</h2></header>
+<body>
+<button class="tablink" onclick="openPage('Home',this,'blue')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Combos',this,'660033')">Combos</button>
+<button class="tablink" onclick="openPage('About',this,'green')">About</button>
+
+
+<div id="Home" class="tabcontent">
+<br><br> 
+<div class="border"><h4>Orders are applicable only for:</h4> 
+Aathmakur bustand, Ayyappagudi, B.V nagar, Buja buja nellore, Gandhi Bomma, Harinadhpuram, Indiramma colony, Kakuturu, Kanaparthipadu, Kantepalli, KVR, Lassi center, MGB, Mulapet, Nellore, RTC,
+Vedayapalem, V.R.C.<br>(Also delivered to nellore near areas upto 10KM ).</div><br><div class="border"><b>NOTE: </b>Free delivery on all items and click on <b>about</b> to know deatils of our site. </div>
+<h3 style="border: 2px solid red">Orders are taken from evening 4:30pm to 7:30pm</h3><h4>Orders are taken from today</h3></h4><b>Items:</b><i>Pani puri</i>(offers available)<br>
+<table >
+<tr><th><img src="p2.jpg" width=325 height=150></th></tr>
+<tr><td><a href="p1.html">Pani puri (₹50)(5pcs)</a></td></tr><tr><td><a href="p2.html">Pani puri (₹80)(10pcs)</a></td></tr>
+<tr><td><a href="p3.html">Pani puri (₹110)(20pcs)</a></td></tr><tr><td><a href="p4.html">Pani puri (₹160)(25pcs)</a></td></tr>
+<tr><td><a href="p5.html">Pani puri (₹200)(30pcs)</a></td></tr>
+</table><br>
+<i>Noodles: </i>(click on below options for more categories)
+<table >
+<tr><th><img src="N1.jpg" width=325 height=150></th></tr>
+<tr><td><a href="N1.html">Veg Noodles(offers available)</a></td></tr><tr><td><a href="N2.html">Egg Noodles(offers available)</a></td></tr>
+<tr><td><a href="N3.html">Chicken Noodles(offers available)</a></td></tr>
+</table><br>
+<i>Fried Rice: </i>(click on below options for more categories)
+<table>
+<tr><th><img src="F1.jpg" width=325 height=150></th></tr>
+<tr><td><a href="F1.html">Veg Fried Rice(offers available)</td></tr><tr><td><a href="F2.html">Egg Fried Rice(offers available)</td></tr>
+<tr><td><a href="F3.html">Chicken Fried Rice(offers available)</td></tr>
+</table><br>
+<i>Chicken pakora:</i>(click on below option for more categories)
+<table>
+<tr><th><img src="C1.jpg" width=325 height=150></th></tr>
+<tr><td><a href="C1.html">Chicken pakora<br>(mixture of bones&boneless) (offers available)</a></tr></td>
+</table>
+</div>
+<div class="tabcontent" id="Combos"><br>
+<br><table>
+<tr><td><a href="co1.html">1 Small coke +<br>1 chicken noodles pack<br>(₹130)</a></td>
+<td><a href="co2.html">1 small coke +<br>1 chicken fried rice pack<br>(₹130)</a></td></tr>
+<tr><td><a href="co3.html">1 coke(1/2 lit) +<br>2 Egg noodles packs<br>(₹190)</a></td>
+<td><a href="co4.html">1 coke(1/2 lit) +<br>2 Egg fried rice packs<br>(₹190)</a></td></tr>
+</table>
+<br><table>
+<tr><td><a href="co5.html">1 coke(1/2 lit) + 1 chiken noodles + <br> 1 egg noodles (₹220)</td></tr>
+<tr><td><a href="co6.html">1 coke(1/2 lit) + 1 chicken fried rice + <br>1 egg fried rice (₹220)</td></tr>
+<tr><td><a href="co7.html">1 coke(1/2 lit) + 1 chicken noodles + <br>1 chicken fried rice (₹230)</td></tr>
+<tr><td><a href="co8.html">1 coke(1/2 lit) + 1 egg noodles + <br> 1 egg fried rice (₹210)</td></tr>
+<tr><td><a href="co9.html">1 chicken noodles + 1 chicken fried rice (₹190)</td></tr>
+<tr><td><a href="co10.html">1 egg noodles + 1 egg fried rice (₹170)</td></tr>
+</table>
+</div>
+
+<div id="About" class="tabcontent"><br><br>
+ <div class="border"> <h3>About us: </h3>
+ <p>Safety measures are taken strictly to deliver food items safely.</p></div>
+ <br><h3> Your Order status: </h3>
+<p>Your order status is sent to your whatsapp and your orders are delivered
+under 2hours.</p>
+<h4>NOTE: </h4>To cancel your order , you can put cancel request to whatsapp.
+<h4>Privacy and policy:</h4>
+We will keep customers data privately and we will not share customers information with others.<br>
+<br>We are accepting only cash on delivery and also we removed login platform to avoid cyber attacks.
+<br><br>We provide you best and quality food to customers.</div>
+
+<script>
+function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i <tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+
+
+ 
+</script>
+</body>
+</html>
+
+

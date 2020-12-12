@@ -1,0 +1,35 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.nb{ border:none; }
+.text{ box-sizing:border-box; height:80px; width=100%; resize:none;}
+</style>
+</head>
+<body>
+<form action="contact.php">
+<label>Item Name:</label>
+<input type="text" class="nb" name="iname" value="Egg Noodles" readonly><br>
+
+<label>Name</label><br><input type="text" name="name" placeholder="Enter your name" required><br> 
+
+<label>Phone: </label><br>
+<input type="number" name="phone" placeholder="Enter your number" required><br>
+
+<label>Address</label><br>
+<input type="text" name="address" placeholder="Enter Your Address" required><br>
+
+<br><label>Quantity:</label>(click below for more options)<br> <select name="select">
+<option>Rs.100/- (for 1person)(1pack)</option>
+<option>Rs.150/- (for 2persons)(2packs)</option>
+<option>Rs.200/- (for 3persons)(3packs)</option>
+<option>Rs.270/- (for 4persons)(4packs)</option>
+<option>Rs.330/- (for 5persons)(5packs)</option>
+</select>
+<br><br>
+<input type="radio" name="cod">Cash on delivery
+
+<br><br><input type="submit" value="order now">
+</form>
+</body>
+</html>
